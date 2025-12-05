@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Transaksi</title>
+</head>
+<body bgcolor="#e6e9f0">
+
+<!-- HEADER -->
+<table width="100%" border="1" cellpadding="15" bgcolor="#7ea3d6">
+<tr><td align="center"><h1>Form Transaksi Pembelian</h1></td></tr>
+</table>
+
+<!-- MENU -->
+<table width="100%" border="1" bgcolor="#ffe8a1" cellpadding="10">
+<tr align="center">
+    <td><a href="index.html">Produk</a></td>
+    <td><a href="tentang.html">Tentang Kami</a></td>
+</tr>
+</table>
+
+<!-- FORM -->
+<table width="100%" border="1" cellpadding="20" bgcolor="#cfe0f4">
+<tr><td>
+
+<form>
+    <label>Nama Pembeli:</label><br>
+    <input type="text" size="40"><br><br>
+
+    <label>Alamat:</label><br>
+    <textarea rows="4" cols="40"></textarea><br><br>
+
+    <label>Pilih Produk:</label><br>
+    <select>
+        <option>HP Galaxy Z</option>
+        <option>iPhone 15</option>
+        <option>Laptop Asus</option>
+    </select>
+    <br><br>
+
+    <label>Jumlah:</label><br>
+    <input type="number" min="1"><br><br>
+
+    <label>Metode Pembayaran:</label><br>
+    <input type="radio" name="bayar">Transfer Bank<br>
+    <input type="radio" name="bayar">COD<br>
+    <input type="radio" name="bayar">E-Wallet<br><br>
+
+    <button>Kirim Pesanan</button>
+</form>
+
+</td></tr>
+</table>
+
+</body>
+</html>
